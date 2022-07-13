@@ -1,0 +1,19 @@
+{
+  "name": "blender-to-unreal-docs",
+  "version": "0.0.1",
+  "description": "Export Meshes, Animations, Collisions, Sockets and Lods to Unreal Engine.",
+  "main": "index.js",
+  "authors": {
+    "name": "Karan",
+    "email": ""
+  },
+  "repository": "https://github.com/b3dhub/blender-to-unreal-docs",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
