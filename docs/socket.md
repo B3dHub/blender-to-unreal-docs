@@ -6,7 +6,7 @@ Socket will add in 3d cursor location.
 
 Socket to the selected object(s) in 3d cursor location.
 
-<p><img :src="$withBase('/img/socket.png')" alt='' /></p>
+<p><img :src="$withBase('/img/ui_socket.png')" alt='' /></p>
 
 ---
 

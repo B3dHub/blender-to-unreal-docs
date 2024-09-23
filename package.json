@@ -1,6 +1,6 @@
 {
   "name": "blender-to-unreal-docs",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "Export Meshes, Animations, Collisions, Sockets and Lods to Unreal Engine.",
   "main": "index.js",
   "authors": {

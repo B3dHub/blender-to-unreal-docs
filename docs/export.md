@@ -1,14 +1,18 @@
 # Export
 
-Export object(s) to Disk or Unreal or Both.
+Export objects and collections to Unreal or Disk.
 
-<p><img :src="$withBase('/img/export_1.png')" alt='' /></p>
+<p><img :src="$withBase('/img/ui_export.png')" alt='' /></p>
 
-If [Path](/preference.html#path) is not defined then the `Export` button will disable.
+<!-- If [Path](/preference.html#path) is not defined then the `Export` button will disable. -->
 
-<p><img :src="$withBase('/img/export_disable_1.png')" alt='' /></p>
+- Add a folder path.
+- Select the objects or collections.
+- Hit export.
 
-::: tip CHECK : Selected Objects
+<p><img :src="$withBase('/img/export.gif')" alt='' /></p>
+
+<!-- ::: tip CHECK : Selected Objects
 - Exports only the selected objects.
 - Objects can be in any collection.
 :::
@@ -24,4 +28,4 @@ If [Path](/preference.html#path) is not defined then the `Export` button will di
 ::: tip DON'T
 - Select any children object(s).
 - Select any collisions, sockets, lods.
-:::
+::: -->

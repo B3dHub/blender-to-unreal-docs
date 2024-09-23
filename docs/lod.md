@@ -2,7 +2,7 @@
 
 Create, Update, and Preset LODs of the selected objects.
 
-<p><img :src="$withBase('/img/lod_create.png')" alt='' /></p>
+<p><img :src="$withBase('/img/ui_lod.png')" alt='' /></p>
 
 ---
 
@@ -11,7 +11,7 @@ Create, Update, and Preset LODs of the selected objects.
 - Press `Add` to add number of LODs
 - Set the reduction percentage of the LODs
 
-<p><img :src="$withBase('/img/lod_create.webp')" alt='' /></p>
+<p><img :src="$withBase('/img/lod_create.gif')" alt='' /></p>
 
 ---
 
@@ -20,7 +20,7 @@ Create, Update, and Preset LODs of the selected objects.
 - Update number of LODs
 - Change the reduction percentage of the LODs
 
-<p><img :src="$withBase('/img/lod_update.webp')" alt='' /></p>
+<p><img :src="$withBase('/img/lod_update.gif')" alt='' /></p>
 
 ---
 
@@ -28,4 +28,4 @@ Create, Update, and Preset LODs of the selected objects.
 
 - You can save LOD preset
 
-<p><img :src="$withBase('/img/lod_preset.webp')" alt='' /></p>
+<p><img :src="$withBase('/img/lod_preset.gif')" alt='' /></p>

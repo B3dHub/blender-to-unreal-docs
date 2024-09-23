@@ -32,6 +32,7 @@ module.exports = {
             'quickstart',
             'preference',
             'tool',
+            'vehicle_rigging',
             'collision',
             'socket',
             'lod',

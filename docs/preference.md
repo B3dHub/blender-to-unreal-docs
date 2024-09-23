@@ -2,13 +2,13 @@
 
 ## General
 
-<p><img :src="$withBase('/img/general.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_general.png')" alt='' /></p>
 
 ### Prefix
 
 Add and Change the prefix of Static Meshes, Skeletal Meshes, Collisions, Lods, Meterials, Textures.
 
-<p><img :src="$withBase('/img/prefix.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_general_prefix.png')" alt='' /></p>
 
 - `SM` prefix will add to Static Meshes, Collisions, Sockets and Lods.
   - `Suzanne` = `SM_Suzanne`
@@ -21,6 +21,9 @@ Add and Change the prefix of Static Meshes, Skeletal Meshes, Collisions, Lods, M
 - `SKM` prefix will add to Skeletal Meshes.
   - `Armature` = `SKM_Armature`
 
+- `A` prefix will add to Animation.
+  - `Animation` = `A_Animation`
+
 - `T` prefix will add to Material Textures.
   - `Texture` = `T_Texture`
 
@@ -31,7 +34,7 @@ Add and Change the prefix of Static Meshes, Skeletal Meshes, Collisions, Lods, M
 
 Change the color of the collision objects.
 
-<p><img :src="$withBase('/img/collision_prefs.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_general_collision.png')" alt='' /></p>
 
 `UCX_Collision` material for the Convex collision.
 
@@ -41,21 +44,34 @@ Change the color of the collision objects.
 
 `UCP_Collision` material for the Capsule collision.
 
+### Socket
+
+Display size of the socket.
+
+<p><img :src="$withBase('/img/prefs_general_socket.png')" alt='' /></p>
+
+### LODs
+
+Offset LODs location for better comparison.
+
+<p><img :src="$withBase('/img/prefs_general_lod.png')" alt='' /></p>
+
+
 ### V-HACD
 
 ::: tip REQUIRE
 - Windows operating system.
-- Version 2 of V-HACD executable.
+<!-- - Version 2 of V-HACD executable. -->
 :::
-
-<p><img :src="$withBase('/img/vhacd.png')" alt='' /></p>
+<!-- 
+<p><img :src="$withBase('/img/prefs_general_vhacd.png')" alt='' /></p>
 
 - Extract the V-HACD executable from the zip/Blender-to-Unreal/resouce/V-HACD/VHACD_v2.exe
-- Locate the executable path then the parameters will available.
+- Locate the executable path then the parameters will available. -->
 
-<p><img :src="$withBase('/img/vhacd_prefs.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_general_vhacd.png')" alt='' /></p>
 
-| Parameter        | Description                                                                                                                                                                               | Range            | Default |
+<!-- | Parameter        | Description                                                                                                                                                                               | Range            | Default |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------- |
 | Voxel Resolution | Maximum number of voxels generated during the voxelization stage                                                                                                                          | 10000 - 64000000 | 100000  |
 | Clipping Depth   | Maximum number of clipping stages. During each split stage, all the model parts (with a concavity higher than the user defined threshold) are clipped according the "best" clipping plane | 1 - 32           | 20      |
@@ -71,9 +87,9 @@ Change the color of the collision objects.
 | Hull Vertices    | Maximum number of vertices per convex-hull                                                                                                                                                | 4 - 1024         | 32      |
 | Hull Volume      | Minimum volume to add vertices to convex-hulls                                                                                                                                            | 0.0 - 0.01       | 0.0001  |
 
----
+--- -->
 
-## Path
+<!-- ## Path
 
 Choose the export path.
 
@@ -87,7 +103,7 @@ Choose the export path.
 
 #### Export to Both
 
-<p><img :src="$withBase('/img/path_both.png')" alt='' /></p>
+<p><img :src="$withBase('/img/path_both.png')" alt='' /></p> -->
 
 ---
 
@@ -95,4 +111,4 @@ Choose the export path.
 
 Change the FBX settings.
 
-<p><img :src="$withBase('/img/export_prefs.png')" alt='' /></p>
+<p><img :src="$withBase('/img/prefs_export.png')" alt='' /></p>

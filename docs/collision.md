@@ -2,7 +2,7 @@
 
 Auto and custom collision to the selected object(s).
 
-<p><img :src="$withBase('/img/collision.png')" alt='' /></p>
+<p><img :src="$withBase('/img/ui_collision.png')" alt='' /></p>
 
 ---
 
